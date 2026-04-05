@@ -1,17 +1,18 @@
 import java.util.Scanner;
-
+/*3427. Sum of Variable Length Subarrays
+https://leetcode.com/problems/sum-of-variable-length-subarrays/description/?envType=problem-list-v2&envId=array */
 public class LeetCode_2 {
 
     public static void main(String []args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Array length");
+        System.out.println("Enter Array length is ");
            int n=sc.nextInt();
            int nums[] = new int[n];
         System.out.println("Enter Elemennt in Array");
           for(int i=0;i<n;i++)
             nums[i]=sc.nextInt();
-         System.out.println("Sum is SubArray"+ subarraySum(nums));
+         System.out.println("Sum is SubArray "+ subarraySum(nums));
     }
    static public int subarraySum(int[] nums) {
         
