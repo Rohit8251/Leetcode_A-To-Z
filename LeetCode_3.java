@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*2859. Sum of Values at Indices With K Set Bits
+https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/?envType=problem-list-v2&envId=array */
+
 public class LeetCode_3 {
         public static void main(String []args)
     {
@@ -13,7 +16,7 @@ public class LeetCode_3 {
         System.out.println("Enter Elemennt in List");
           for(int i=0;i<n;i++)
             arr.add(sc.nextInt());
-         System.out.println("Sum is SubArray "+ sumIndicesWithKSetBits(arr,k));
+         System.out.println("Sum of "+ sumIndicesWithKSetBits(arr,k));
     }
     public static int sumIndicesWithKSetBits(List<Integer> nums, int k) {
         
