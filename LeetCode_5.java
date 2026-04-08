@@ -1,4 +1,6 @@
 import java.util.Scanner;
+/*3300. Minimum Element After Replacement With Digit Sum
+https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/?envType=problem-list-v2&envId=array */
 
 public class LeetCode_5 {
     
