@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+/*3005. Count Elements With Maximum Frequency
+https://leetcode.com/problems/count-elements-with-maximum-frequency/description/?envType=problem-list-v2&envId=array */
 public class LeetCode_6 {
     
     public static void main(String []args)
@@ -11,7 +12,7 @@ public class LeetCode_6 {
         System.out.println("Enter Elemennt in Array");
           for(int i=0;i<n;i++)
             nums[i]=sc.nextInt();
-         System.out.println("minimum sum "+ maxFrequencyElements(nums));
+         System.out.println("maximu frequency "+ maxFrequencyElements(nums));
     }
     public static int maxFrequencyElements(int[] nums) {
         
