@@ -4,7 +4,7 @@ import java.util.Scanner;
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/?envType=problem-list-v2&envId=array */
 
 public class LeetCode_4 {
-     public static void main(String []args)
+   public static void main(String []args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Array length is ");
